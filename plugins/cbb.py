@@ -10,8 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴍɪᴋᴇʏ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Alpha_Bots_Updates'>ᴄᴏᴅᴇғʟɪx ʙᴏᴛs</a>\n○ Aɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Crunchyroll_in_Hindi_Dubbed'>Aʟᴘʜᴀ X Nᴇᴛᴡᴏʀᴋ
-</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/IA_Aniume_Group'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Iᴍᴍᴏʀᴛᴀʟ Sᴀʀ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Alpha_Bots_Updates'>Aʟᴘʜᴀ Bᴏᴛs Uᴘᴅᴀᴛᴇs</a>\n○ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Crunchyroll_in_Hindi_Dubbed'>Cʀᴜɴᴄʜʏʀᴏʟʟ ɪɴ Hɪɴᴅɪ Dᴜʙʙᴇᴅ</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/TEAM_X_ALPHA'>Tᴇᴀᴍ x Aʟᴘʜᴀ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/IA_Aniume_Group'>IA Aɴɪᴍᴇ Gʀᴏᴜᴘ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
