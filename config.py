@@ -1,4 +1,4 @@
-#(©)t.me/CodeFlix_Bots
+thi#(©)t.me/CodeFlix_Bots
 
 
 
@@ -35,8 +35,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://REAM:7UDxumfkA1l3jfIY@clu
 DB_NAME = os.environ.get("DATABASE_NAME", "Ream")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001473043276"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001644866777"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5191566338)
+ADMINS.append(6704102375)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
